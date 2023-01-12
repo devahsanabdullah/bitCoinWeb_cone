@@ -1,0 +1,55 @@
+.parentContainer {
+  background: rgb(27, 28, 28);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 28, 28, 1) 26%,
+    rgba(80, 81, 82, 1) 100%
+  );
+  margin: 0px;
+  padding:0px
+}
+.cardbox {
+  box-shadow: -5px -3px 2px 2px rgba(242, 137, 5, 0.36);
+  -webkit-box-shadow: -5px -3px 2px 2px rgba(242, 137, 5, 0.36);
+  -moz-box-shadow: -5px -3px 2px 2px rgba(242, 137, 5, 0.36);
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 41, 41, 0.958420868347339) 9%,
+    rgba(0, 0, 0, 0.5) 55%
+  );
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+.backBox {
+  height: 500px;
+  width: 500px;
+  background: linear-gradient(
+    98deg,
+    rgba(221, 114, 8, 0.958420868347339) 0%,
+    rgba(55, 52, 48, 1) 86%
+  );
+margin:0px auto;
+border-radius: 50%;
+position: absolute;
+left: 31%;
+top:-5%;
+filter: opacity(0.4);
+}
+.gridItem {
+  z-index: 1000;
+}
+.iconbutton:hover{
+  transform: rotate(360deg);
+  border: 1px solid rgba(221, 114, 8, 0.958420868347339);
+  animation: rotation 0.3s linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+  
+}

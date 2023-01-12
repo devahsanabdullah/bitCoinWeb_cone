@@ -1,0 +1,22 @@
+[
+  {
+    "title": "What is cryptocurrency ?",
+    "disc": "A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation."
+  },
+  {
+    "title": "How is Cryptocurrency made .?",
+    "disc": "Units of cryptocurrency are created through a process called mining, which involves using computer power to solve complicated mathematical problems that generate coins. Users can also buy the currencies from brokers, then store and spend them using cryptographic wallets."
+  },
+  {
+    "title": "How many Cryptocurrency are there .?",
+    "disc": "There are 1583 cryptocurrencies listed on coinmarketcap.com. That is more than all the different types of fiat currencies in the world. The question many people ask is, why are there so many of them? Just nine years ago, there was only Bitcoin. Now we have a cryptocurrency in virtually every sector of the economy.  "
+  },
+  {
+    "title": "Who created cryptocurrencies .?",
+    "disc": "The idea for cryptocurrency first emerged in 1983, when American cryptographer David Chaum published a conference paper outlining an early form of anonymous cryptographic electronic money. The concept was for a currency that could be sent untraceably and in a manner that did not require centralized entities (i.e. banks). In 1995, Chaum built on his early ideas and developed a proto-cryptocurrency called Digicash"
+  },
+  {
+    "title": "Where is Cryptocurrencies stored .?",
+    "disc": "Usually, cryptocurrency is stored in crypto wallets, which are physical devices or online software used to store the private keys to your cryptocurrencies securely. Some exchanges provide wallet services, making it easy for you to store directly through the platform."
+  }
+]
