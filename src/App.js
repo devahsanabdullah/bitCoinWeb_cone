@@ -10,35 +10,34 @@ import RoadMap from "./Components/RoadMap";
 import FAQs from "./Components/FAQs";
 import Footer from "./Components/Footer";
 import { Fade, Slide } from "react-awesome-reveal";
-import Ahsan from "./Components/ahsan";
+
 export default function App() {
   return (
     <>
-    <Ahsan />
-    </>
-    // <Box
-    //   className="parentContainer"
-    //   sx={{ margin: "0px auto", maxWidth: { md: "100%", xl: "1280px" } }}
-    // >
+    <Box
+      className="parentContainer"
+      sx={{ margin: "0px auto", maxWidth: { md: "100%", xl: "1280px" } }}
+    >
       
-    //     <Header />
-    //   <Section />
-    //   <Fade>
-    //     <DetailSection />
-    //   </Fade>
-    //   <Fade>
-    //     <MonetryPolicy />
-    //   </Fade>
-    //   <Slide>
-    //     <ADItoken />
-    //   </Slide>
-    //   <RoadMap />
-    //   <Fade>
-    //     <FAQs />
-    //   </Fade>
-    //   <Slide>
-    //     <Footer />
-    //   </Slide>
-    // </Box>
+        <Header />
+      <Section />
+      <Fade>
+        <DetailSection />
+      </Fade>
+      <Fade>
+        <MonetryPolicy />
+      </Fade>
+      <Slide>
+        <ADItoken />
+      </Slide>
+      <RoadMap />
+      <Fade>
+        <FAQs />
+      </Fade>
+      <Slide>
+        <Footer />
+      </Slide>
+    </Box>
+    </>
   );
 }
